@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>ContactForm</display-name>
+  <welcome-file-list>
+    <welcome-file>Form1.html</welcome-file>
+ 
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Registrationform</display-name>
+    <servlet-name>Registrationform</servlet-name>
+    <servlet-class>Registrationform</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Registrationform</servlet-name>
+    <url-pattern>/asdf</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Registrationform1</display-name>
+    <servlet-name>Registrationform1</servlet-name>
+    <servlet-class>Registrationform1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Registrationform1</servlet-name>
+    <url-pattern>/asdf1</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
